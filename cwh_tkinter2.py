@@ -4,9 +4,10 @@ from PIL import Image, ImageTk
 
 root = Tk()
 
-#NOTE : tkinter doesn't support jpg images, hence we need to use PIL images
-
 root.geometry("1255x944")
+# photo = PhotoImage(file="photo.jpg")
+
+#NOTE : tkinter doesn't support jpg images, hence we need to use PIL images
 
 #For JPG images
 
